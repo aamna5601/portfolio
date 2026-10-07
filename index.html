@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Social Media | Content Creator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">AAMNA<span>.</span></div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <p class="small-title">SOCIAL MEDIA MANAGER & CONTENT CREATOR</p>
+
+            <h1>
+                I Create Content
+                <span>That Gets Noticed.</span>
+            </h1>
+
+            <p class="hero-description">
+                I help brands build a strong social media presence through
+                creative content, engaging strategies and consistent branding.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#work" class="btn">View My Work</a>
+                <a href="#contact" class="btn secondary">Let's Work Together</a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+
+            <div class="profile-circle">
+                📱
+            </div>
+
+            <h2>Social Media</h2>
+            <p>Strategy • Content • Growth</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <p>ABOUT ME</p>
+            <h2>Turning Ideas Into <span>Content.</span></h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-image">
+                <div class="image-box">
+                    📸
+                </div>
+            </div>
+
+            <div class="about-text">
+
+                <h3>Hi, I'm Aamna 👋</h3>
+
+                <p>
+                    I'm a Social Media Manager and Content Creator passionate
+                    about helping businesses grow online.
+                </p>
+
+                <p>
+                    I create engaging social media posts, reels, captions,
+                    content strategies and campaigns designed to connect
+                    brands with their audience.
+                </p>
+
+                <div class="stats">
+
+                    <div>
+                        <h3>20+</h3>
+                        <p>Projects</p>
+                    </div>
+
+                    <div>
+                        <h3>10+</h3>
+                        <p>Brands</p>
+                    </div>
+
+                    <div>
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section services-section" id="services">
+
+        <div class="section-title">
+            <p>WHAT I DO</p>
+            <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="services">
+
+            <div class="service-card">
+                <div class="icon">📱</div>
+                <h3>Social Media Management</h3>
+                <p>
+                    Complete management of Instagram, Facebook and other
+                    social media platforms.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>Content Creation</h3>
+                <p>
+                    Creative posts, carousels, stories and visual content
+                    for your brand.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🎬</div>
+                <h3>Reels & Short Videos</h3>
+                <p>
+                    Engaging short-form videos designed to increase reach
+                    and audience engagement.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">✍️</div>
+                <h3>Copywriting</h3>
+                <p>
+                    Captions, hooks and marketing copy that encourages
+                    people to take action.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">📊</div>
+                <h3>Content Strategy</h3>
+                <p>
+                    Monthly content planning and strategies based on
+                    your business goals.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🚀</div>
+                <h3>Social Media Growth</h3>
+                <p>
+                    Organic growth strategies to increase reach,
+                    engagement and followers.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section class="section" id="work">
+
+        <div class="section-title">
+            <p>MY PORTFOLIO</p>
+            <h2>Sample <span>Work</span></h2>
+        </div>
+
+        <!-- FILTER BUTTONS -->
+        <div class="filters">
+
+            <button onclick="filterWork('all')">All</button>
+            <button onclick="filterWork('social')">Social Media</button>
+            <button onclick="filterWork('branding')">Branding</button>
+            <button onclick="filterWork('content')">Content</button>
+
+        </div>
+
+
+        <div class="portfolio-grid">
+
+            <div class="portfolio-item social">
+                <div class="portfolio-image instagram">
+                    <span>INSTAGRAM</span>
+                    <h3>Beauty Brand</h3>
+                    <p>Social Media Campaign</p>
+                </div>
+
+                <div class="portfolio-info">
+                    <h3>Beauty Brand Campaign</h3>
+                    <p>Instagram Content Strategy</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item content">
+                <div class="portfolio-image fashion">
+                    <span>FASHION</span>
+                    <h3>New Collection</h3>
+                    <p>Content Campaign</p>
+                </div>
+
+                <div class="portfolio-info">
+                    <h3>Fashion Content</h3>
+                    <p>Creative Social Media Posts</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item branding">
+                <div class="portfolio-image food">
+                    <span>FOOD BRAND</span>
+                    <h3>Fresh & Delicious</h3>
+                    <p>Brand Content</p>
+                </div>
+
+                <div class="portfolio-info">
+                    <h3>Restaurant Branding</h3>
+                    <p>Social Media Branding</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item social">
+                <div class="portfolio-image marketing">
+                    <span>MARKETING</span>
+                    <h3>Grow Your Brand</h3>
+                    <p>Digital Campaign</p>
+                </div>
+
+                <div class="portfolio-info">
+                    <h3>Marketing Campaign</h3>
+                    <p>Social Media Marketing</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item content">
+                <div class="portfolio-image lifestyle">
+                    <span>LIFESTYLE</span>
+                    <h3>Daily Inspiration</h3>
+                    <p>Content Creation</p>
+                </div>
+
+                <div class="portfolio-info">
+                    <h3>Lifestyle Content</h3>
+                    <p>Instagram Content</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item branding">
+                <div class="portfolio-image business">
+                    <span>BUSINESS</span>
+                    <h3>Build Your Brand</h3>
+                    <p>Brand Strategy</p>
+                </div>
+
+                <div class="portfolio-info">
+                    <h3>Business Branding</h3>
+                    <p>Brand Identity & Content</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section skills-section">
+
+        <div class="section-title">
+            <p>MY EXPERTISE</p>
+            <h2>Skills & <span>Tools</span></h2>
+        </div>
+
+        <div class="skills">
+
+            <div class="skill">
+                <span>Social Media Management</span>
+                <div class="progress">
+                    <div style="width: 95%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Content Creation</span>
+                <div class="progress">
+                    <div style="width: 90%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Canva</span>
+                <div class="progress">
+                    <div style="width: 95%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Meta Ads</span>
+                <div class="progress">
+                    <div style="width: 80%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Copywriting</span>
+                <div class="progress">
+                    <div style="width: 85%"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+    <section class="section testimonials">
+
+        <div class="section-title">
+            <p>CLIENT FEEDBACK</p>
+            <h2>What Clients <span>Say</span></h2>
+        </div>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "The content was creative, professional and exactly what
+                    our brand needed."
+                </p>
+
+                <h4>— Sarah K.</h4>
+                <small>Beauty Brand Owner</small>
+            </div>
+
+
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Our Instagram engagement improved significantly after
+                    working together."
+                </p>
+
+                <h4>— Ayesha M.</h4>
+                <small>Business Owner</small>
+            </div>
+
+
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Very creative and professional. Highly recommended for
+                    social media management."
+                </p>
+
+                <h4>— Hira A.</h4>
+                <small>Entrepreneur</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Let's Grow Your <span>Brand</span></h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Have a project in mind?</h3>
+
+                <p>
+                    Let's create content that makes your brand stand out
+                    on social media.
+                </p>
+
+                <div class="contact-details">
+
+                    <p>📧 amnafarman54@gmail.com</p>
+
+                    <p>📱 +92 3150840935</p>
+
+                    <p>📍 Karachi, Pakistan</p>
+
+                </div>
+
+                <div class="socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Facebook</a>
+                </div>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="business"
+                    placeholder="Business / Brand Name"
+                >
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Tell me about your project..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h2>AMNA<span>.</span></h2>
+
+        <p>
+            Social Media Manager • Content Creator
+        </p>
+
+        <p class="copyright">
+            © 2026 Amna. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
